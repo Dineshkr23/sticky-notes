@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import "./HeroPane.css";
 import LeftPane from "./LeftPane";
 import RightPane from "./RightPane";

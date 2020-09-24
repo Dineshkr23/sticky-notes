@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import "./RightPane.css";
 import DeleteIcon from "@material-ui/icons/Delete";
 import Button from "@material-ui/core/Button";
@@ -13,8 +13,8 @@ function RightPane() {
     const [textContent, setTextContent] = React.useState("");
 
     React.useEffect(() => {
-        setContentActive(array?.filter(data => data.selected === true)[0]);
-        setTextContent(array?.filter(data => data.selected === true)[0]?.content);
+        setContentActive(array?.filter((data)=> data.selected === true)[0]);
+        setTextContent(array?.filter((data)=> data.selected === true)[0]?.content);
     }, [array]);
 
     const saveContent = () => {
